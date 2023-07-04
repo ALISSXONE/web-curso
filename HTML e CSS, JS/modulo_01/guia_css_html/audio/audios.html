@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+
+<body>
+    <H1>aqui será inserido um arquivo MP3</H1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="track_tribe.mp3" controls ></audio>
+    <!--Para adicionar uma midia é necessário usar a tag <audio> e para ativar os controles é necessario utilizar o parametro controls e dps caso queira, utilize o auto play-->
+        <!--Formatos compativeis: MP3 WAY OGG-->
+    <audio> 
+        <source src="track_tribe.mp3" type="audio/mpeg"><!--MP3-->
+        <source src="track_tribe.mp3" type="audio/ogg">
+        <source src="track_tribe.mp3" type="audio/wav">
+        <p>Infelizmente o seu navegador não suporta essa midia, tente esse metodo aqui: <a href="track_tribe.mp3">DOWLOAD</a></p>
+    </audio>
+    <p><a href="track_tribe.mp3">download</a></p>
+</body>
+</html>

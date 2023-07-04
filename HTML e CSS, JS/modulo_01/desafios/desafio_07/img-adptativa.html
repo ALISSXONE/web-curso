@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adptação de imagem. reprodução de audio e video</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir esse site em varios dipsositivos diferentes ou simplismente diminua o tamanho do seu navagador</p>
+    <!--Aqui aprendemos uma nova variavel()picture, ela serve para criar varias fontes de img, é isso o que a gente fala para o navegador-->
+    <picture>
+        <source media="(max-width: 750px )" srcset="cat-300.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="cat700.png" type="image/png">
+        <img src="cat1000.png" alt="imagem-p">
+    </picture>
+    <!--Para inserir diversas imagens de diversas proporções se utiliza:
+    <Picture>(Inserir imagens, serve para sizer que a uma imagem)
+        <source type = media> (serve para dizer que ha uma proporção, recomenda-se começar pelo maior e incluir um valor de 50px a mais e alterar o min para max)
+    (caso seja mais imagens apens repetir o processo)
+    e para imagem maior se coloca<img> padrão-->
+</body>
+</html>

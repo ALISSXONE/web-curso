@@ -1,0 +1,38 @@
+                CORES
+Nos possuimos 3 classificações de cores, entre elas estão: Primaria, secundaria e terciaria.
+
+Primarias: Amarelo, Vermelho e Azul
+
+Secundarias: Laranja, Violeta/roxo e verde
+
+terciarias: Amarelo-esverdeado, Amarelo-alaranjado, Vermelho alaranjado, Vermelho-roxeado, azul-roxeado, azul-esverdeado
+
+cores complementares: são as cores que apresentam maior contraste entre si, para fazer isso se pega um circulo cromatico e depois se trassa um linha ao lado oposto (Roxo/violeta ao amarelo)
+
+cores analogas são cores que desenvolvem algo semelhante sendo assim fazendo com que seja possível a manter uma harmonia entre sí e sem o contraste
+
+cores análogas e mais uma complementar: são cores que criam uma armonia e criam mais um contraste, sendo assim fazendo com que seja possível uma paleta de 4 crores, por exemplo: Violeta + violeta-azulado + violeta-esvermelhado + amarelo(contraste) = cores analogas e mais uma complementar
+
+cores analogas relacionadas: São cores com harmonias porem que realizam um contraste menos chamativo (pegando 2 ao lado e pulando uma)
+
+cores intercaladas: São semelhantes as relacionadas que realizam um contraste maior sempre pegando a principal e pulando uma casa 
+
+cores triadicas: Pegando uma cor principal e pulando 3 casas para qualquer lado, assim até atingir o objetivo de cores da sua paleta
+
+cores em quadrado: São cores que são parecidas com a triadicas, porém se pula 2 cores até formar a sua paleta(objetivo é um quadrado)
+
+cores tetradicas: São cores de contraste, sempre pegando a oposta, fazendo assim um retangulo
+
+monocronomia: São cores que mudam a saturação e luminosidade (Efeito degrade)
+
+                APPS DE COLORAÇÃO
+1 - ADOBE COLOR
+2 - PALETTON.COM
+3 - COLLORS
+
+----------------------------------------------------------------------------------------------------------
+
+* {
+    isso se chama configuração global e serve para editar a pag inteira
+}
+

@@ -1,0 +1,139 @@
+tags
+! = Realiza a criação de uma base inicial (VSCODE)
+
+a = Realiza uma ancoragem para poder ligar algo a uma pag ou destino (Permite realizar dowlonds)
+
+h1 = Cria um titulo (Smp usar em herarquia, vai até o h6)
+
+b = cria negrito, porém não é a forma correta (Sem semantica)
+
+strong = cria negrito, forma correta
+
+em = italico (Forma semantica)
+
+mark = marca texto, é possivel trocar a cor via "<syte>
+
+big = deixa as letras grandes porém não está mais como forma semantica
+
+small = deixa a letra pequena
+
+del = cria um risco em cima da palvra
+
+ins = cria um sublinhado na palvra
+
+sup = cria numeros pequenos na parte superior
+
+sub = cria numeros pequenos na parte inferior
+
+cod = deixa as palavras em proporções identicas
+
+pre = formata do jeito inserido
+
+q = utilizado para citações curtas
+
+blockquote = utilizado para citações longas
+
+bdo = texto invertido
+
+main = serve para dizer que é o conteudo principal
+
+text-align = cerve para alocar o conteudo em uma direção
+
+margim = define a margem do conteudo
+
+border-radius = define a borda de algo(deixa mais redondo)
+
+box-shadow = cria uma sombra em volta do conteúdo, parametro: direita(px), baixo(px), espalhamento(px), trasnparencia(color)
+
+text-shadow = coloca sombra no texto, parametro:direita(px), baixo(px), espalhamento(px), trasnparencia(color)
+
+                IMAGENS
+img = inserir uma imagem ao corpo (body)
+
+linf:favicon = insere um icon na pagina (vai ao head)
+
+link:css = cria um link para a pagina de css
+(É possivel utilizar mais de um link por pg)
+(É possivel utilizar varias opções de personalização, a sequencia de que permanece é: <p style = font-size: 20px> dps a peronalização dentro da propria pag e por seguinte a personalização via link )
+
+
+picture = mostra ao navegador que ali irá uma foto
+
+source-midia = possibilita a inserção de midias de diversos tamanhos (Recomendo que ao utilizar troque o min por max e smp colocar na sequencia do menor para o maior de baixo para cima, colocar um extra de 50 px)
+
+                LISTAS
+ol = lista ordenada
+
+ul = lista não ordenada
+
+li = vai dentro das listas, mostrando que faz parte
+
+dl = serve para abrir um lista de definições
+
+dt = titulo da lista de definições
+
+dd = Funciona como a descrição da lista
+
+br = quebra a linha
+
+&#x = inserir codigos hexadecimais de emojis
+
+                AUDIO
+audio = avisa que ali vai um audio, formatos compativeis: 
+MP3, WAY, OGG
+
+source = utilizado para inserir diversos  tipos de formatos
+
+controls = cria controles para a musica
+
+autoplay = faz iniciar automaticamente
+
+                VIDEO
+video = usada para inserir videos do formato (WEBM,MP4,OGV)
+
+source = possibilita inserir diversos tipos de formatos 
+
+width = controla o tamanho para o video(lagura)
+
+lenght = controla o tamanho para o video(comprimento)
+
+controls = possibilita inserir controles ao videos
+
+posters = insrir capa ao videos
+
+    OBS: Para inserir um video sem usar seu banco de dados você deve inserir através do YT, támbem é possívekl puxar outros videos de lá atrvés da "Compartilhar + incorporar
+
+                COLORAÇÃO
+    OBS: Sempre inserir através do elemento inserido no modo local
+
+        style = coloca a diversas opções de peronalização a tags
+
+back-graud-color = permite inserir coloração ao fundo da pagina
+
+font-family = opção de fonte
+
+color = cor nas letras da tags
+
+font-size = permite inserir o tamanho da fonte
+(medidas absolutas:cm, mm, in(polegada),px, pt, pc)
+(medidas relativas:em, ex, rem, vw, vh, %) recomenda-se utilizar em(16px)
+
+font-wight = peso da fonte (ligher, normal, bold, bolder)
+
+text-deconretion = decoração de estilos
+
+posição correta dos valores: font-style -> font-wight -> font-siz -> font-family
+
+font-style = variação de estilo e de fonte (não são todas que possuem esse esitilo)
+
+background-color(letras) = cores para área de letras
+
+background-image = permite fazer fundos com efeitos
+
+linear-gradiente: permite fazer fundo com degrade
+
+background-attachment = deixa o degrade fixo
+
+                REGRAS
+@charset = cria uma regra de codificação (UTF-8)
+
